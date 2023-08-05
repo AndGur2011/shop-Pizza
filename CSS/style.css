@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    background-color:#FFD873;
+}
+
+.sushi{
+    position: relative;
+    top:0px;
+    left:585px;
+    bottom: 0px;
+}
+h1{
+    color: #FF5300;
+    margin: 0px 0px 0px 0px;
+    font-size: 60px;
+}
+.shapka{
+    background-color: #FFB000;
+}
+.pizza{
+   position: relative;
+   top:0px;
+}
+.navig{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+nav a{
+    transition: 1s ease-out;
+    text-decoration: none;
+    color:green;
+}
+nav a:hover{
+    transition: 1s ease-in;
+    text-decoration: none;
+    color:green;
+    text-shadow: 15px 10px 0 white,30px 20px 0 red; 
+}
+.menu_pizza img{
+   width:140px;
+   height:140px;
+   transition: 1s linear;
+   opacity: 0.4;
+}
+.menu_pizza img:hover{
+   width:140px;
+   height:140px;
+   transition: 1s linear;
+   opacity: 1;
+   width: 180px;
+   height: 180px
+}
+.menu_pizza p{
+   position: relative;
+   left: 270px;
+   bottom: 180px;
+}
+.components{
+    position: relative;
+    bottom:150px;
+    font-size: 30px;
+}
+.name_pizza{
+    background-image: linear-gradient(to right bottom,lightgreen,yellow,red);
+    height: 30px;
+    width: 150px;
+    font-size: 30px;
+}
+.sale{
+    font-size: 27px;
+    color:red;
+    border:;
+}
+.glava{
+    margin-left: 0px;
+    font-size: 40px;
+}
+.glava_two{
+    font-size: 40px;
+   margin-top: 200px;
+   margin-right: 200px;
+   transform: translateX(0px);
+}
+
+.znishki{
+    transform: translateX(0px);
+    background-color:  #FFAC40 ;
+    width: 890px;
+}
+.znishka{
+    transform: translateX(0px);
+    background-color:  #FFAC40 ;
+    width: 350px; 
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #FFD140;
+}
+footer img{
+    width: 60px;
+    height: 60px;
+}
+.dop_foto{
+    transform: translateX(950px)
+translateY(150px);
+width: 250px;
+height: 220px;
+}
+.dop_photo{
+    transform: translateX(700px)translateY(800px);
+    width: 250px;
+height: 220px;
+}
+.dop_fotos{
+    transform: translateX(500px)translateY(1300px);
+    width: 250px;
+height: 220px;
+}
+.dop_photos{
+    transform: translateX(250px)translateY(1600px);
+    width: 250px;
+height: 220px;
+}
